@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+button{
+    width: 80px;
+    height: 80px;
+}
+#leftBracket,#rightBracket {
+    width: 37px !important;
+    padding: 10px 10px;
+}
+td{
+    padding: 7px;
+}
+
+tr{
+    font-size: 24px;
+}
+#screenValue{
+    width: 343px;
+    padding-inline: 10px;
+    height: 60px;
+    font-size: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    position: relative;
+    border-radius: 0.25rem ;
+    box-shadow: 1px 1px 4px grey;
+}
+#screenValue:focus { 
+    outline: none !important;
+    border-color: #6200ee;
+ }
+
+.calculator{
+    border: 1px solid #aeaeae;
+    display: inline-block;
+    padding-top: 17px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 0.25rem ; 
+    text-align: center;
+}
+
+#head{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+
+ body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+  
+  
+  button {
+    position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: #fff;
+    background-color: #6200ee;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem ; 
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
+    cursor: pointer;
+  }
+ 
+  
+  /* ripple effect */
+  /* span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 300ms linear;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  } */
