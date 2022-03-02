@@ -10,16 +10,15 @@
 </head>
 <body>
     <div class="container my-5">
-        <h2 id="head">CALCULATOR
-        <br>
+        <h1 id="head">CALCULATOR</h1>
         <br>
         <div class="calculator">
-            <input type="text" id="screenValue">
+            <div id="screenValue"></div>
             <table class="mx-auto my-2">
                 <tr>
                     <td><button>C</button></td>
                     <td><button>%</button></td>
-                    <td><button id="leftBracket">(</button> <button id="rightBracket">)</button></td>
+                    <td><span id="leftBrackets"><button id="leftBracket">(</button></span><span id="rightBrackets"><button id="rightBracket">)</button></span></td>
                     <td><button>DEL</button></td>
                 </tr>
                 <tr>
@@ -47,10 +46,10 @@
                     <td><button>+</button></td>
                </tr>
             </table>
-        </div>
+        </divtype=>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <script src="index.js"></script>
 </body>
